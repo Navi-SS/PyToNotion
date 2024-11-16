@@ -1,1 +1,30 @@
+# Ignorar archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar el entorno virtual
+venv/
+env/
+
+# Ignorar archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar los archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de base de datos
+*.sqlite3
+
+# Ignorar archivos de dependencias
+node_modules/
+*.egg
+*.egg-info/
 dist/
+build/
