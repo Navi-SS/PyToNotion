@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "PyToNotion"
+version = "0.0.1"
+authors = [
+    { name="vania_vaniusha", email="ivan.castaneda.nazario@gmail.com" },
+]
+description = "Notion API with Python"
+readme = "README.md"
+license = { file="LICENSE.txt" }
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.28"  # Especifica la versión mínima necesaria
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Navi-SS/PyToNotion"
+"Bug Tracker" = "https://github.com/Navi-SS/PyToNotion/issues"
